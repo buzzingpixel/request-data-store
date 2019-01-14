@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 use corbomite\di\Di;
 use corbomite\requestdatastore\DataStore;
-use corbomite\flashdata\twigextensions\DataStoreTwigExtension;
+use corbomite\requestdatastore\DataStoreTwigExtension;
 
 return [
     DataStore::class => function () {
